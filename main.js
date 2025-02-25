@@ -28,7 +28,7 @@
                 if (index !== -1) {
                     words.splice(index, 1);
                 } else {
-                    words.push(copiedText.toLowerCase());
+                    words.push(copiedText);
                 }
                 chatInput.value = words.join(' ').trim();
                 console.log('Text updated in chat input');
